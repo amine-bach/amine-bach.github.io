@@ -5,10 +5,21 @@
     <link>http://localhost/</link>
     <description>Recent content on Pedago content</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Jan 2021 15:33:22 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 18 Jan 2021 16:32:12 +0100</lastBuildDate>
     
 	<atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sigma</title>
+      <link>http://localhost/rappels/sigma/</link>
+      <pubDate>Mon, 18 Jan 2021 16:32:12 +0100</pubDate>
+      
+      <guid>http://localhost/rappels/sigma/</guid>
+      <description>Le symbole de l&amp;rsquo;addition Le \( \sum_{} \) représente la somme des termes à droite du symbole.
+L&amp;rsquo;indice (ici l&amp;rsquo;entier \( i \)) est la valeur qui est incrémentée lors de la somme, entre la valeur de départ \( 1 \) et finale \( 10 \), ainsi : $$\sum_{i=1}^{10} i = 1 + 2 +&amp;hellip;+10 $$
+[Pour votre culture générale, apprenez que $$\ \sum_{i=0}^n i = \frac{n(n+1)}{2} $$ :-) ]</description>
+    </item>
     
     <item>
       <title>Linéarité</title>
