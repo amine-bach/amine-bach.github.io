@@ -17,8 +17,9 @@
       
       <guid>http://localhost/rappels/sigma/</guid>
       <description>Le symbole de l&amp;rsquo;addition Le \( \sum_{} \) représente la somme des termes à droite du symbole.
-L&amp;rsquo;indice (ici l&amp;rsquo;entier \( i \)) est la valeur qui est incrémentée lors de la somme, entre la valeur de départ \( 1 \) et finale \( 10 \), ainsi : $$\sum_{i=1}^{10} i = 1 + 2 +&amp;hellip;+10 $$
-[Pour votre culture générale, apprenez que $$\ \sum_{i=0}^n i = \frac{n(n+1)}{2} $$ :-) ]</description>
+L&amp;rsquo;indice (ici l&amp;rsquo;entier \( i \)) est la valeur qui est incrémentée lors de la somme, entre la valeur de départ \( 1 \) et finale \( 10 \), ainsi : $$\sum_{i=1}^{10} i = 1 + 2 +&amp;hellip;+ 9+10 $$
+
+Exercice : Soit la matrice \(A = (a_{i,j})_{1\le i,j\le n }) = \begin{pmatrix} a_{1 1} &amp;amp; a_{1 2} &amp;amp; \dots &amp;amp; a_{1 n} \\ a_{2 1} &amp;amp; a_{2 2} &amp;amp; &amp;amp; \\ \vdots &amp;amp; &amp;amp; \ddots \\ a_{n 1} &amp;amp; &amp;amp; &amp;amp; a_{n n} \end{pmatrix}\)</description>
     </item>
     
     <item>
