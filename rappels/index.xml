@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rappels on Pedago content</title>
+    <link>http://localhost/rappels/</link>
+    <description>Recent content in Rappels on Pedago content</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 18 Jan 2021 15:33:22 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost/rappels/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linéarité</title>
+      <link>http://localhost/rappels/linearite/</link>
+      <pubDate>Mon, 18 Jan 2021 15:33:22 +0100</pubDate>
+      
+      <guid>http://localhost/rappels/linearite/</guid>
+      <description>Espace vectoriel et linéarité Espace vectoriel Au fait C&amp;rsquo;est quoi ce truc étrange : espace vectoriel ?
+ Présentation :        Définition et distributivité :       On voit donc que beaucoup de choses, presque tout en fait sont des espace vectoriels.</description>
+    </item>
+    
+  </channel>
+</rss>

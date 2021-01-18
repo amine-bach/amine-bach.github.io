@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python-quickstarts on Pedago content</title>
+    <link>http://localhost/python-quickstart/</link>
+    <description>Recent content in Python-quickstarts on Pedago content</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 24 Dec 2020 14:40:47 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost/python-quickstart/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>For</title>
+      <link>http://localhost/python-quickstart/for/</link>
+      <pubDate>Thu, 24 Dec 2020 14:40:47 +0100</pubDate>
+      
+      <guid>http://localhost/python-quickstart/for/</guid>
+      <description>Boucle sur un intervalle Boucle pour i de 1 à 9 inclus // Javascript for (let i = 1; i &amp;lt; 10; i++) { const e = myArray[i]; } let toto = 1   # Python for i in range(1, 10): e = my_array[i] # fin de l&amp;#39;indentation  # -&amp;gt; sortie de la boucle toto = 1    
+Boucle sur une séquence // JavaScript : Array myArray = [2, 3, 5, 7] for (const element of myArray) { console.</description>
+    </item>
+    
+  </channel>
+</rss>
