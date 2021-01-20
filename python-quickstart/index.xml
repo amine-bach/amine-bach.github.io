@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python-quickstarts on Pedago content</title>
+    <title>Pedago content</title>
     <link>http://localhost/python-quickstart/</link>
-    <description>Recent content in Python-quickstarts on Pedago content</description>
+    <description>Recent content on Pedago content</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 24 Dec 2020 14:40:47 +0100</lastBuildDate>
     
 	<atom:link href="http://localhost/python-quickstart/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>For</title>
+      <title>Boucles for</title>
       <link>http://localhost/python-quickstart/for/</link>
       <pubDate>Thu, 24 Dec 2020 14:40:47 +0100</pubDate>
       

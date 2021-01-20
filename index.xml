@@ -11,21 +11,11 @@
     
     
     <item>
-      <title>Linéarité</title>
-      <link>http://localhost/rappels/linearite/</link>
-      <pubDate>Mon, 18 Jan 2021 15:33:22 +0100</pubDate>
-      
-      <guid>http://localhost/rappels/linearite/</guid>
-      <description>Espace vectoriel et linéarité Espace vectoriel Au fait C&amp;rsquo;est quoi ce truc étrange : espace vectoriel ?
- Présentation :        Définition et distributivité :       On voit donc que beaucoup de choses, presque tout en fait sont des espace vectoriels.</description>
-    </item>
-    
-    <item>
       <title>Sigma</title>
-      <link>http://localhost/rappels/sigma/</link>
+      <link>http://localhost/ACP/g%C3%A9n%C3%A9ralit%C3%A9s/sigma/</link>
       <pubDate>Mon, 18 Jan 2021 16:32:12 +0100</pubDate>
       
-      <guid>http://localhost/rappels/sigma/</guid>
+      <guid>http://localhost/ACP/g%C3%A9n%C3%A9ralit%C3%A9s/sigma/</guid>
       <description>Le symbole de l&amp;rsquo;addition Le \( \sum_{} \) représente la somme des termes à droite du symbole.
 L&amp;rsquo;indice (ici l&amp;rsquo;entier \( i \)) est la valeur qui est incrémentée lors de la somme, entre la valeur de départ \( 1 \) et finale \( 10 \), ainsi : $$\sum_{i=1}^{10} i = 1 + 2 +&amp;hellip;+ 9+10 $$
 
@@ -34,10 +24,10 @@ L&amp;rsquo;indice (ici l&amp;rsquo;entier \( i \)) est la valeur qui est incré
     
     <item>
       <title>Moyenne, variance, écarts-types</title>
-      <link>http://localhost/rappels/stats_elems/</link>
+      <link>http://localhost/ACP/stats/stats_elems/</link>
       <pubDate>Wed, 20 Jan 2021 08:55:21 +0100</pubDate>
       
-      <guid>http://localhost/rappels/stats_elems/</guid>
+      <guid>http://localhost/ACP/stats/stats_elems/</guid>
       <description>Suivant l&amp;rsquo;exemple de l&#39;âge des salariés nous avons les observations suivantes : 43 29 57 45 50 29 37 59 46 31 46 24 33 38 49 31
 62 60 52 38 38 26 41 52 60 49 52 41 38 26 37 59
 57 41 29 33 33 43 46 57 46 33 46 49 57 57 46 43
@@ -46,7 +36,17 @@ correspondant au tableau des effectifs suivant :
     </item>
     
     <item>
-      <title>For</title>
+      <title>Espace vectoriel</title>
+      <link>http://localhost/ACP/vecteurs/espace-vectoriel/</link>
+      <pubDate>Mon, 18 Jan 2021 15:33:22 +0100</pubDate>
+      
+      <guid>http://localhost/ACP/vecteurs/espace-vectoriel/</guid>
+      <description>Espace vectoriel et linéarité Espace vectoriel Au fait C&amp;rsquo;est quoi ce truc étrange : espace vectoriel ?
+ Présentation :        Définition et distributivité :       On voit donc que beaucoup de choses, presque tout en fait sont des espace vectoriels.</description>
+    </item>
+    
+    <item>
+      <title>Boucles for</title>
       <link>http://localhost/python-quickstart/for/</link>
       <pubDate>Thu, 24 Dec 2020 14:40:47 +0100</pubDate>
       
