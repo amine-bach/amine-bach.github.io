@@ -5,17 +5,31 @@
     <link>http://localhost/</link>
     <description>Recent content on Pedago content</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Jan 2021 08:55:21 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 23 Jan 2021 18:55:08 +0100</lastBuildDate>
     
 	<atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Symboles</title>
+      <link>http://localhost/ACP/a1_generalites/symboles/</link>
+      <pubDate>Sat, 23 Jan 2021 18:55:08 +0100</pubDate>
+      
+      <guid>http://localhost/ACP/a1_generalites/symboles/</guid>
+      <description>Pour lire (et donc pouvoir comprendre :) ) la majeure partie des documents à venir, rappellons quelques symboles.  \( \large \forall \space \space\space\space Quelque \space soit \)
+\( \large \exists \space \space \space\space Il \space existe \)
+\( \large \in \space \space\space Appartient \)
+\( \large P_A\iff P_B \space \space\space\space\space Équivaut \space à \)
+   Quelques vérités \( \forall x \in \mathbb{R}, \space x²&amp;gt;0 \)
+\( p \space est \space pair \iff \exists q \in \N, \space p = 2q \)</description>
+    </item>
+    
+    <item>
       <title>Sigma</title>
-      <link>http://localhost/ACP/g%C3%A9n%C3%A9ralit%C3%A9s/sigma/</link>
+      <link>http://localhost/ACP/a1_generalites/sigma/</link>
       <pubDate>Mon, 18 Jan 2021 16:32:12 +0100</pubDate>
       
-      <guid>http://localhost/ACP/g%C3%A9n%C3%A9ralit%C3%A9s/sigma/</guid>
+      <guid>http://localhost/ACP/a1_generalites/sigma/</guid>
       <description>Le symbole de l&amp;rsquo;addition Le \( \sum_{} \) représente la somme des termes à droite du symbole.
 L&amp;rsquo;indice (ici l&amp;rsquo;entier \( i \)) est la valeur qui est incrémentée lors de la somme, entre la valeur de départ \( 1 \) et finale \( 10 \), ainsi : $$\sum_{i=1}^{10} i = 1 + 2 +&amp;hellip;+ 9+10 $$
 
@@ -23,13 +37,23 @@ L&amp;rsquo;indice (ici l&amp;rsquo;entier \( i \)) est la valeur qui est incré
     </item>
     
     <item>
+      <title>Exemple jouet</title>
+      <link>http://localhost/ACP/a4_code/exemple_jouet/</link>
+      <pubDate>Wed, 20 Jan 2021 17:55:14 +0100</pubDate>
+      
+      <guid>http://localhost/ACP/a4_code/exemple_jouet/</guid>
+      <description>Exercice : Écrivez le code qui permet d&amp;rsquo;obtenir les valeurs de l&amp;rsquo;exemple jouet
+Aide mémoire ...  import numpy as np jean = &amp;#34;6.00 6.00 5.00 5.50&amp;#34;.split(&amp;#34; &amp;#34;) alan = &amp;#34;8.00 8.00 8.00 8.00&amp;#34;.split(&amp;#34; &amp;#34;) anni = &amp;#34;6.00 7.00 11.00 9.50&amp;#34;.split(&amp;#34; &amp;#34;) moni = &amp;#34;14.50 14.50 15.50 15.00&amp;#34;.split(&amp;#34; &amp;#34;) didi = &amp;#34;14.00 14.00 12.00 12.50&amp;#34;.split(&amp;#34; &amp;#34;) andr = &amp;#34;11.00 10.00 5.50 7.00&amp;#34;.split(&amp;#34; &amp;#34;) pier = &amp;#34;5.50 7.00 14.00 11.50&amp;#34;.split(&amp;#34; &amp;#34;) brig = &amp;#34;13.</description>
+    </item>
+    
+    <item>
       <title>Moyenne, variance, écarts-types</title>
-      <link>http://localhost/ACP/stats/stats_elems/</link>
+      <link>http://localhost/ACP/a3_stats/stats_elems/</link>
       <pubDate>Wed, 20 Jan 2021 08:55:21 +0100</pubDate>
       
-      <guid>http://localhost/ACP/stats/stats_elems/</guid>
+      <guid>http://localhost/ACP/a3_stats/stats_elems/</guid>
       <description>Suivant l&amp;rsquo;exemple de l&#39;âge des salariés nous avons les observations suivantes : 43 29 57 45 50 29 37 59 46 31 46 24 33 38 49 31
-62 60 52 38 38 26 41 52 60 49 52 41 38 26 37 59
+sw 62 60 52 38 38 26 41 52 60 49 52 41 38 26 37 59
 57 41 29 33 33 43 46 57 46 33 46 49 57 57 46 43
 correspondant au tableau des effectifs suivant :
  Âge	24	26	29	31	33	37	38	41	43	45	46	49	50	52	57	59	60	62  Effectif 1	2	3	2	4	2	4	3	3	1	6	3	1	3	5	2	2	1</description>
@@ -37,12 +61,12 @@ correspondant au tableau des effectifs suivant :
     
     <item>
       <title>Espace vectoriel</title>
-      <link>http://localhost/ACP/vecteurs/espace-vectoriel/</link>
+      <link>http://localhost/ACP/a2_vecteurs/vecteurs/</link>
       <pubDate>Mon, 18 Jan 2021 15:33:22 +0100</pubDate>
       
-      <guid>http://localhost/ACP/vecteurs/espace-vectoriel/</guid>
-      <description>Espace vectoriel et linéarité Espace vectoriel Au fait C&amp;rsquo;est quoi ce truc étrange : espace vectoriel ?
- Présentation :        Définition et distributivité :       On voit donc que beaucoup de choses, presque tout en fait sont des espace vectoriels.</description>
+      <guid>http://localhost/ACP/a2_vecteurs/vecteurs/</guid>
+      <description>Au fait C&amp;rsquo;est quoi ce truc étrange : espace vectoriel ?
+ Présentation : Les vecteurs        Définition et distributivité :       On voit donc que beaucoup de choses, presque tout en fait sont des espace vectoriels.</description>
     </item>
     
     <item>

@@ -2,12 +2,11 @@
 <html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.68.3" />
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Pedago content">
+<meta name="description" content="Exemple jouet">
 
-<title>Pedago content | Pedago content</title>
+<title>Exemple jouet | Pedago content</title>
 
 <link rel="icon" href="/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -32,7 +31,6 @@
 <link rel="preload" href="/custom.css" as="style">
 <link rel="stylesheet" href="/custom.css" media="all">
 
-<link rel="alternate" type="application/rss+xml" href="http://localhost/index.xml" title="Pedago content" />
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
@@ -161,7 +159,7 @@
 
             <li>
             
-            <input type="checkbox" id="navtree-c20963d2" class="gdoc-nav__toggle" >
+            <input type="checkbox" id="navtree-c20963d2" class="gdoc-nav__toggle" checked>
             <label for="navtree-c20963d2" class="flex justify-between">
             
             
@@ -413,7 +411,7 @@
             
             
                 <span class="flex">
-                    <a href="/ACP/a4_code/exemple_jouet/" class="gdoc-nav__entry ">
+                    <a href="/ACP/a4_code/exemple_jouet/" class="gdoc-nav__entry is-active">
                         Exemple jouet
                     </a>
                 </span>
@@ -476,7 +474,28 @@
             
     
     
-        Pedago content
+        
+        
+        
+    
+    
+        
+        
+        
+    
+    
+        
+        
+        
+    
+    
+        <a href='/'>Pedago content</a> / <a href='/ACP/'>A C P</a> / <a href='/ACP/a4_code/'>Code</a> / Exemple jouet
+    
+
+    
+
+    
+
     
 
         </span>
@@ -487,14 +506,56 @@
     </span>
 </div>
 
+
     <article class="gdoc-markdown">
-        <h1>Pedago content</h1>
+        <h1>Exemple jouet</h1>
         
 
 
 
     
 
+
+<div class="gdoc-page__anchorwrap"><h2 id="exercice-">Exercice :<a data-clipboard-text="http://localhost/ACP/a4_code/exemple_jouet/#exercice-" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Exercice :" href="#exercice-"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>Écrivez le code qui permet d&rsquo;obtenir les valeurs de l&rsquo;<a href="http://wikistat.fr/pdf/st-l-des-multi">exemple jouet</a></p>
+
+<div class="gdoc-expand">
+  <label class="gdoc-expand__head flex justify-between" for="4766fa10-0">
+    <span>Aide mémoire</span>
+    <span>...</span>
+  </label>
+  <input id="4766fa10-0" type="checkbox" class="gdoc-expand__control hidden" />
+  <div class="gdoc-markdown--nested gdoc-expand__content">
+    <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+
+<span class="n">jean</span> <span class="o">=</span> <span class="s2">&#34;6.00 6.00 5.00 5.50&#34;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">)</span>
+<span class="n">alan</span> <span class="o">=</span> <span class="s2">&#34;8.00 8.00 8.00 8.00&#34;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">)</span>
+<span class="n">anni</span> <span class="o">=</span> <span class="s2">&#34;6.00 7.00 11.00 9.50&#34;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">)</span>
+<span class="n">moni</span> <span class="o">=</span> <span class="s2">&#34;14.50 14.50 15.50 15.00&#34;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">)</span>
+<span class="n">didi</span> <span class="o">=</span> <span class="s2">&#34;14.00 14.00 12.00 12.50&#34;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">)</span>
+<span class="n">andr</span> <span class="o">=</span> <span class="s2">&#34;11.00 10.00 5.50 7.00&#34;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">)</span>
+<span class="n">pier</span> <span class="o">=</span> <span class="s2">&#34;5.50 7.00 14.00 11.50&#34;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">)</span>
+<span class="n">brig</span> <span class="o">=</span> <span class="s2">&#34;13.00 12.50 8.50 9.50&#34;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">)</span>
+<span class="n">evel</span> <span class="o">=</span> <span class="s2">&#34;9.00 9.50 12.50 12.00&#34;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">)</span>
+
+<span class="n">datas_str</span> <span class="o">=</span> <span class="p">[</span><span class="n">alan</span><span class="p">,</span> <span class="n">jean</span><span class="p">,</span> <span class="n">anni</span><span class="p">,</span> <span class="n">moni</span><span class="p">,</span> <span class="n">didi</span><span class="p">,</span> <span class="n">andr</span><span class="p">,</span> <span class="n">pier</span><span class="p">,</span> <span class="n">brig</span><span class="p">,</span> <span class="n">evel</span><span class="p">]</span>
+<span class="n">datas</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">datas_str</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+
+<span class="c1"># print(datas)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">datas</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">nanstd</span><span class="p">(</span><span class="n">datas</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+
+
+<span class="c1"># matrice des corrélations</span>
+<span class="n">corrcoef</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">corrcoef</span><span class="p">(</span><span class="n">datas</span><span class="p">,</span> <span class="n">rowvar</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="c1"># print(corrcoef)</span>
+
+<span class="c1"># matrice de covariance</span>
+<span class="n">cov</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">cov</span><span class="p">(</span><span class="n">datas</span><span class="p">,</span> <span class="n">rowvar</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="c1"># print(cov)</span>
+</code></pre></div>
+  </div>
+</div>
 
 
 

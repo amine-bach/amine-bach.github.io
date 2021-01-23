@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rappels maths on Pedago content</title>
+    <link>http://localhost/ACP/a1_generalites/</link>
+    <description>Recent content in Rappels maths on Pedago content</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://localhost/ACP/a1_generalites/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Symboles</title>
+      <link>http://localhost/ACP/a1_generalites/symboles/</link>
+      <pubDate>Sat, 23 Jan 2021 18:55:08 +0100</pubDate>
+      
+      <guid>http://localhost/ACP/a1_generalites/symboles/</guid>
+      <description>Pour lire (et donc pouvoir comprendre :) ) la majeure partie des documents à venir, rappellons quelques symboles.  \( \large \forall \space \space\space\space Quelque \space soit \)
+\( \large \exists \space \space \space\space Il \space existe \)
+\( \large \in \space \space\space Appartient \)
+\( \large P_A\iff P_B \space \space\space\space\space Équivaut \space à \)
+   Quelques vérités \( \forall x \in \mathbb{R}, \space x²&amp;gt;0 \)
+\( p \space est \space pair \iff \exists q \in \N, \space p = 2q \)</description>
+    </item>
+    
+    <item>
+      <title>Sigma</title>
+      <link>http://localhost/ACP/a1_generalites/sigma/</link>
+      <pubDate>Mon, 18 Jan 2021 16:32:12 +0100</pubDate>
+      
+      <guid>http://localhost/ACP/a1_generalites/sigma/</guid>
+      <description>Le symbole de l&amp;rsquo;addition Le \( \sum_{} \) représente la somme des termes à droite du symbole.
+L&amp;rsquo;indice (ici l&amp;rsquo;entier \( i \)) est la valeur qui est incrémentée lors de la somme, entre la valeur de départ \( 1 \) et finale \( 10 \), ainsi : $$\sum_{i=1}^{10} i = 1 + 2 +&amp;hellip;+ 9+10 $$
+
+[ Pour votre culture générale, apprenez que : $$\sum_{i=1}^{n} i = \frac{n(n+1)}{2} $$ :-) ]</description>
+    </item>
+    
+  </channel>
+</rss>

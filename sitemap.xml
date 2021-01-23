@@ -3,52 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://localhost/ACP/a1_generalites/symboles/</loc>
+    <lastmod>2021-01-23T20:33:36+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost/python-quickstart/</loc>
     <lastmod>2021-01-20T14:31:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/ACP/g%C3%A9n%C3%A9ralit%C3%A9s/sigma/</loc>
-    <lastmod>2021-01-18T16:32:12+01:00</lastmod>
+    <loc>http://localhost/ACP/a1_generalites/</loc>
+    <lastmod>2021-01-23T20:33:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/ACP/a1_generalites/sigma/</loc>
+    <lastmod>2021-01-23T20:33:36+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://localhost/ACP/</loc>
-    <lastmod>2021-01-20T14:31:00+01:00</lastmod>
+    <lastmod>2021-01-23T20:33:36+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/ACP/stats/stats_elems/</loc>
-    <lastmod>2021-01-20T14:31:00+01:00</lastmod>
+    <loc>http://localhost/ACP/a2_vecteurs/</loc>
+    <lastmod>2021-01-23T20:33:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/ACP/a3_stats/</loc>
+    <lastmod>2021-01-23T20:33:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/ACP/a4_code/</loc>
+    <lastmod>2021-01-23T20:33:36+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://localhost/</loc>
-    <lastmod>2021-01-20T14:31:00+01:00</lastmod>
+    <lastmod>2021-01-23T20:33:36+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/ACP/g%C3%A9n%C3%A9ralit%C3%A9s/</loc>
-    <lastmod>2021-01-18T16:32:12+01:00</lastmod>
+    <loc>http://localhost/ACP/a4_code/exemple_jouet/</loc>
+    <lastmod>2021-01-23T20:33:36+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/ACP/vecteurs/espace-vectoriel/</loc>
-    <lastmod>2021-01-20T14:31:00+01:00</lastmod>
+    <loc>http://localhost/ACP/a3_stats/stats_elems/</loc>
+    <lastmod>2021-01-23T20:33:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/ACP/a2_vecteurs/vecteurs/</loc>
+    <lastmod>2021-01-23T20:33:36+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://localhost/python-quickstart/for/</loc>
-    <lastmod>2021-01-20T14:31:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost/ACP/stats/</loc>
-    <lastmod>2021-01-20T14:31:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost/ACP/vecteurs/</loc>
     <lastmod>2021-01-20T14:31:00+01:00</lastmod>
   </url>
   

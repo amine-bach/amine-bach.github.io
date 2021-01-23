@@ -2,12 +2,11 @@
 <html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.68.3" />
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Pedago content">
+<meta name="description" content="Moyenne, variance, écarts-types">
 
-<title>Pedago content | Pedago content</title>
+<title>Moyenne, variance, écarts-types | Pedago content</title>
 
 <link rel="icon" href="/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -32,7 +31,6 @@
 <link rel="preload" href="/custom.css" as="style">
 <link rel="stylesheet" href="/custom.css" media="all">
 
-<link rel="alternate" type="application/rss+xml" href="http://localhost/index.xml" title="Pedago content" />
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
@@ -161,7 +159,7 @@
 
             <li>
             
-            <input type="checkbox" id="navtree-c20963d2" class="gdoc-nav__toggle" >
+            <input type="checkbox" id="navtree-c20963d2" class="gdoc-nav__toggle" checked>
             <label for="navtree-c20963d2" class="flex justify-between">
             
             
@@ -359,7 +357,7 @@
             
             
                 <span class="flex">
-                    <a href="/ACP/a3_stats/stats_elems/" class="gdoc-nav__entry ">
+                    <a href="/ACP/a3_stats/stats_elems/" class="gdoc-nav__entry is-active">
                         Moyenne, variance, écarts-types
                     </a>
                 </span>
@@ -476,7 +474,28 @@
             
     
     
-        Pedago content
+        
+        
+        
+    
+    
+        
+        
+        
+    
+    
+        
+        
+        
+    
+    
+        <a href='/'>Pedago content</a> / <a href='/ACP/'>A C P</a> / <a href='/ACP/a3_stats/'>Statistiques</a> / Moyenne, variance, écarts-types
+    
+
+    
+
+    
+
     
 
         </span>
@@ -487,8 +506,9 @@
     </span>
 </div>
 
+
     <article class="gdoc-markdown">
-        <h1>Pedago content</h1>
+        <h1>Moyenne, variance, écarts-types</h1>
         
 
 
@@ -496,6 +516,33 @@
     
 
 
+<p>Suivant l&rsquo;<a href="http://wikistat.fr/pdf/st-l-des-uni.pdf">exemple de l'âge des salariés</a> nous avons les observations suivantes : <br><br>
+43 29 57 45 50 29 37 59 46 31 46 24 33 38 49 31<br>sw
+62 60 52 38 38 26 41 52 60 49 52 41 38 26 37 59<br>
+57 41 29 33 33 43 46 57 46 33 46 49 57 57 46 43<br></p>
+<p>correspondant au tableau des effectifs suivant :</p>
+<table>
+<tr><td>Âge	</td><td>24	</td><td>26</td><td>	29</td><td>	31</td><td>	33</td><td>	37</td><td>	38</td><td>	41</td><td>	43</td><td>	45</td><td>	46</td><td>	49</td><td>	50</td><td>	52</td><td>	57</td><td>	59</td><td>	60</td><td>	62</tr>
+<tr><td> Effectif </td><td>1	</td><td>2</td><td>	3</td><td>	2</td><td>	4</td><td>	2</td><td>	4</td><td>	3</td><td>	3</td><td>	1</td><td>	6</td><td>	3</td><td>	1</td><td>	3</td><td>	5</td><td>	2</td><td>	2</td><td>	1</tr>
+</table>
+<p><br><br></p>
+<div class="gdoc-page__anchorwrap"><h2 id="moyenne">Moyenne<a data-clipboard-text="http://localhost/ACP/a3_stats/stats_elems/#moyenne" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Moyenne" href="#moyenne"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>En notant les <strong>observations</strong> (c-a-d l'âge des salariés) : \( \lbrace x_l ;    l=1,&hellip;,r \rbrace \), et les <strong>effectifs</strong> \( n_l \) :</p>
+<p>La <strong>moyenne</strong> \( \overline{x} \) est obtenue par :
+$$ \overline{x} = \frac{1}{n} \sum_{l=1}^{r} n_l  x_l $$</p>
+<p><br><br></p>
+<div class="gdoc-page__anchorwrap"><h2 id="variance">Variance<a data-clipboard-text="http://localhost/ACP/a3_stats/stats_elems/#variance" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Variance" href="#variance"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>La variance \( var(X) \) est donnée par :
+$$ \begin{aligned} var(X) = \sigma_X ^{2}  &amp;= \frac{1}{n} \sum_{l=1}^{r} (n_l - \overline{x})^2
+\\ &amp;= \frac{1}{n} \sum_{l=1}^{r} n_l (x_l)^2 - (\overline{x})^2 .
+\end{aligned} $$</p>
+<div class="gdoc-page__anchorwrap"><h2 id="écart-type">Écart-type<a data-clipboard-text="http://localhost/ACP/a3_stats/stats_elems/#écart-type" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Écart-type" href="#écart-type"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>L&rsquo;<strong>écart-type</strong> \(\sigma_X \) est la racine carrée de la <strong>variance</strong>.<br>
+C&rsquo;est, <a href="https://fr.wikipedia.org/wiki/%C3%89cart_type">selon Wikipedia</a>, &ldquo;<ins>la mesure de la dispersion des valeurs d&rsquo;un échantillon statistique</ins> (&hellip;)&quot;.</p>
+<p>En anglais, cette grandeur est appelée <em>Standard deviation</em>, et peut être calculée avec la fonction <strong>std</strong> de <em>numpy</em></p>
+<p><br><br></p>
+<div class="gdoc-page__anchorwrap"><h2 id="exercice">Exercice<a data-clipboard-text="http://localhost/ACP/a3_stats/stats_elems/#exercice" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Exercice" href="#exercice"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>Démontrer la formule ci-dessus.</p>
 
 
     </article>

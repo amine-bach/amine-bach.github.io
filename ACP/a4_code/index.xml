@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Pedago content</title>
+    <link>http://localhost/ACP/a4_code/</link>
+    <description>Recent content in Code on Pedago content</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://localhost/ACP/a4_code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exemple jouet</title>
+      <link>http://localhost/ACP/a4_code/exemple_jouet/</link>
+      <pubDate>Wed, 20 Jan 2021 17:55:14 +0100</pubDate>
+      
+      <guid>http://localhost/ACP/a4_code/exemple_jouet/</guid>
+      <description>Exercice : Écrivez le code qui permet d&amp;rsquo;obtenir les valeurs de l&amp;rsquo;exemple jouet
+Aide mémoire ...  import numpy as np jean = &amp;#34;6.00 6.00 5.00 5.50&amp;#34;.split(&amp;#34; &amp;#34;) alan = &amp;#34;8.00 8.00 8.00 8.00&amp;#34;.split(&amp;#34; &amp;#34;) anni = &amp;#34;6.00 7.00 11.00 9.50&amp;#34;.split(&amp;#34; &amp;#34;) moni = &amp;#34;14.50 14.50 15.50 15.00&amp;#34;.split(&amp;#34; &amp;#34;) didi = &amp;#34;14.00 14.00 12.00 12.50&amp;#34;.split(&amp;#34; &amp;#34;) andr = &amp;#34;11.00 10.00 5.50 7.00&amp;#34;.split(&amp;#34; &amp;#34;) pier = &amp;#34;5.50 7.00 14.00 11.50&amp;#34;.split(&amp;#34; &amp;#34;) brig = &amp;#34;13.</description>
+    </item>
+    
+  </channel>
+</rss>
