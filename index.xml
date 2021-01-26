@@ -55,7 +55,7 @@ Aide mémoire ...  import numpy as np jean = &amp;#34;6.00 6.00 5.00 5.50&amp;#3
 sw 62 60 52 38 38 26 41 52 60 49 52 41 38 26 37 59
 57 41 29 33 33 43 46 57 46 33 46 49 57 57 46 43
 correspondant au tableau des effectifs suivant :
- Âge	24	26	29	31	33	37	38	41	43	45	46	49	50	52	57	59	60	62  Effectif 1	2	3	2	4	2	4	3	3	1	6	3	1	3	5	2	2	1</description>
+   indice : \( l \)</description>
     </item>
     
     <item>

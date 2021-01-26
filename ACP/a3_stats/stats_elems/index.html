@@ -522,18 +522,29 @@
 57 41 29 33 33 43 46 57 46 33 46 49 57 57 46 43<br></p>
 <p>correspondant au tableau des effectifs suivant :</p>
 <table>
-<tr><td>Âge	</td><td>24	</td><td>26</td><td>	29</td><td>	31</td><td>	33</td><td>	37</td><td>	38</td><td>	41</td><td>	43</td><td>	45</td><td>	46</td><td>	49</td><td>	50</td><td>	52</td><td>	57</td><td>	59</td><td>	60</td><td>	62</tr>
-<tr><td> Effectif </td><td>1	</td><td>2</td><td>	3</td><td>	2</td><td>	4</td><td>	2</td><td>	4</td><td>	3</td><td>	3</td><td>	1</td><td>	6</td><td>	3</td><td>	1</td><td>	3</td><td>	5</td><td>	2</td><td>	2</td><td>	1</tr>
-</table>
+<tr> <td>
+<p>indice :
+\( l \)</p>
+</td><td>1	</td><td>2</td><td>	3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td></tr>
+<tr><td> 
+<p>Âge	: \( x_l \)</p>
+</td><td>24	</td><td>26</td><td>	29</td><td>	31</td><td>	33</td><td>	37</td><td>	38</td><td>	41</td><td>	43</td><td>	45</td><td>	46</td><td>	49</td><td>	50</td><td>	52</td><td>	57</td><td>	59</td><td>	60</td><td>	62</td></tr>
+<tr><td>
+<p>Effectif : \( n_l \)</p>
+ </td><td>1	</td><td>2</td><td>	3</td><td>	2</td><td>	4</td><td>	2</td><td>	4</td><td>	3</td><td>	3</td><td>	1</td><td>	6</td><td>	3</td><td>	1</td><td>	3</td><td>	5</td><td>	2</td><td>	2</td><td>	1</td>
+ </tr></table>
 <p><br><br></p>
 <div class="gdoc-page__anchorwrap"><h2 id="moyenne">Moyenne<a data-clipboard-text="http://localhost/ACP/a3_stats/stats_elems/#moyenne" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Moyenne" href="#moyenne"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<p>En notant les <strong>observations</strong> (c-a-d l'âge des salariés) : \( \lbrace x_l ;    l=1,&hellip;,r \rbrace \), et les <strong>effectifs</strong> \( n_l \) :</p>
-<p>La <strong>moyenne</strong> \( \overline{x} \) est obtenue par :
+<p>Notons les <strong>observations</strong> \( x_l  \) (c-a-d l'âge des salariés) : \( \lbrace x_l ;    l=1,&hellip;,r \rbrace \)</p>
+<p>(les âges prennent 18 valeurs, on a donc \( r = 18 \)  ), les âges \( x_l \) varient selont le tableau ci-dessus avec \( l \)  entre 1 et 18.</p>
+<p>De même les <strong>effectifs</strong> \( n_l \) figurent dans le tableau :
+<br><br></p>
+<p>La <strong>moyenne</strong> \( \overline{x} \) est obtenue avec la formule suivante :
 $$ \overline{x} = \frac{1}{n} \sum_{l=1}^{r} n_l  x_l $$</p>
 <p><br><br></p>
 <div class="gdoc-page__anchorwrap"><h2 id="variance">Variance<a data-clipboard-text="http://localhost/ACP/a3_stats/stats_elems/#variance" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Variance" href="#variance"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 <p>La variance \( var(X) \) est donnée par :
-$$ \begin{aligned} var(X) = \sigma_X ^{2}  &amp;= \frac{1}{n} \sum_{l=1}^{r} (n_l - \overline{x})^2
+$$ \begin{aligned} var(X) = \sigma_X ^{2}  &amp;= \frac{1}{n} \sum_{l=1}^{r} (n_l x_l - \overline{x})^2
 \\ &amp;= \frac{1}{n} \sum_{l=1}^{r} n_l (x_l)^2 - (\overline{x})^2 .
 \end{aligned} $$</p>
 <div class="gdoc-page__anchorwrap"><h2 id="écart-type">Écart-type<a data-clipboard-text="http://localhost/ACP/a3_stats/stats_elems/#écart-type" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Écart-type" href="#écart-type"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
