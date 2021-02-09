@@ -10,6 +10,16 @@
     
     
     <item>
+      <title>Espace vectoriel</title>
+      <link>http://localhost/ACP/a2_vecteurs/vecteurs/</link>
+      <pubDate>Mon, 18 Jan 2021 15:33:22 +0100</pubDate>
+      
+      <guid>http://localhost/ACP/a2_vecteurs/vecteurs/</guid>
+      <description>Au fait C&amp;rsquo;est quoi ce truc étrange : espace vectoriel ?
+ Présentation : Les vecteurs        Définition et distributivité :       On voit donc que beaucoup de choses, presque tout en fait sont des espace vectoriels.</description>
+    </item>
+    
+    <item>
       <title>Application linéaire</title>
       <link>http://localhost/ACP/a2_vecteurs/application_lineaire/</link>
       <pubDate>Mon, 08 Feb 2021 15:47:57 +0100</pubDate>
@@ -19,16 +29,6 @@
 Une base signifie que tout vecteur \( \overrightarrow{v}\) du plan peut être obtenu comme une combinaison linéaire de \( \overrightarrow{i}\) et \(\overrightarrow{j}\).
 Une combinaison linéaire obtenue à partir d&amp;rsquo;une famille de vecteurs \( \overrightarrow{u} \), \( \overrightarrow{v} \) etc&amp;hellip; est une combinaison de la forme :
 $$ a \overrightarrow{u} + b\overrightarrow{v} +&amp;hellip;$$ avec \( a \) et \( b \) etc&amp;hellip; des nombres rééls.</description>
-    </item>
-    
-    <item>
-      <title>Espace vectoriel</title>
-      <link>http://localhost/ACP/a2_vecteurs/vecteurs/</link>
-      <pubDate>Mon, 18 Jan 2021 15:33:22 +0100</pubDate>
-      
-      <guid>http://localhost/ACP/a2_vecteurs/vecteurs/</guid>
-      <description>Au fait C&amp;rsquo;est quoi ce truc étrange : espace vectoriel ?
- Présentation : Les vecteurs        Définition et distributivité :       On voit donc que beaucoup de choses, presque tout en fait sont des espace vectoriels.</description>
     </item>
     
   </channel>
