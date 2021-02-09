@@ -31,7 +31,8 @@
       <guid>http://localhost/ACP/a2_vecteurs/application_lineaire/</guid>
       <description>Soit \( (O, \overrightarrow{i}, \overrightarrow{j}) \) un repère orthonormé, on dit que \( \overrightarrow{i}\) et \(\overrightarrow{j}\) forment une base canonique du plan.
 Une base signifie que tout vecteur \( \overrightarrow{v}\) du plan peut être obtenu comme une combinaison linéaire de \( \overrightarrow{i}\) et \(\overrightarrow{j}\).
-Exemple d&amp;rsquo;une application linéaire Dans le plan (c-a-d. en dimension 2), une application linéaire peut-être définie par la donnée de l&amp;rsquo;image des vecteurs \( \overrightarrow{i}\) et \(\overrightarrow{j}\) .</description>
+Une combinaison linéaire obtenue à partir des vecteurs \( \overrightarrow{u} \) et \( \overrightarrow{v} \) est une combinaison de la forme :
+$$ a \overrightarrow{p} + b\overrightarrow{q} $$ avec \( a \) et \( b \) des nombres rééls.</description>
     </item>
     
     <item>
