@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Application linéaire</title>
+      <link>http://localhost/ACP/a2_vecteurs/application_lineaire/</link>
+      <pubDate>Mon, 08 Feb 2021 15:47:57 +0100</pubDate>
+      
+      <guid>http://localhost/ACP/a2_vecteurs/application_lineaire/</guid>
+      <description>Soit \( (O, \overrightarrow{i}, \overrightarrow{j}) \) un repère orthonormé, on dit que \( \overrightarrow{i}\) et \(\overrightarrow{j}\) forment une base canonique du plan.
+Une base signifie que tout vecteur \( \overrightarrow{v}\) du plan peut être obtenu comme une combinaison linéaire de \( \overrightarrow{i}\) et \(\overrightarrow{j}\).
+Exemple d&amp;rsquo;une application linéaire Dans le plan (c-a-d. en dimension 2), une application linéaire peut-être définie par la donnée de l&amp;rsquo;image des vecteurs \( \overrightarrow{i}\) et \(\overrightarrow{j}\) .</description>
+    </item>
+    
+    <item>
       <title>Espace vectoriel</title>
       <link>http://localhost/ACP/a2_vecteurs/vecteurs/</link>
       <pubDate>Mon, 18 Jan 2021 15:33:22 +0100</pubDate>
