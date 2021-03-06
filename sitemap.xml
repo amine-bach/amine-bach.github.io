@@ -24,7 +24,7 @@
   
   <url>
     <loc>http://localhost/ACP/a2_vecteurs/application_lineaire/</loc>
-    <lastmod>2021-02-09T17:15:12+01:00</lastmod>
+    <lastmod>2021-03-06T03:06:10+01:00</lastmod>
   </url>
   
   <url>
@@ -43,6 +43,11 @@
   </url>
   
   <url>
+    <loc>http://localhost/ACP/a2_vecteurs/exemples_applications/</loc>
+    <lastmod>2021-03-06T03:06:10+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost/ACP/a3_stats/</loc>
     <lastmod>2021-01-23T20:33:36+01:00</lastmod>
   </url>
@@ -54,7 +59,7 @@
   
   <url>
     <loc>http://localhost/</loc>
-    <lastmod>2021-02-09T17:15:12+01:00</lastmod>
+    <lastmod>2021-03-06T03:06:10+01:00</lastmod>
   </url>
   
   <url>

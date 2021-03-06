@@ -31,5 +31,17 @@ Une combinaison linéaire obtenue à partir d&amp;rsquo;une famille de vecteurs 
 $$ a \overrightarrow{u} + b\overrightarrow{v} +&amp;hellip;$$ avec \( a \) et \( b \) etc&amp;hellip; des nombres rééls.</description>
     </item>
     
+    <item>
+      <title>Exemples d&#39;applications linéaires</title>
+      <link>http://localhost/ACP/a2_vecteurs/exemples_applications/</link>
+      <pubDate>Wed, 10 Feb 2021 14:44:27 +0100</pubDate>
+      
+      <guid>http://localhost/ACP/a2_vecteurs/exemples_applications/</guid>
+      <description>Rotation de l&amp;rsquo;espace Nous nous placons dans cet exercice dans le repère orthonormé \( (O, \overrightarrow{i}, \overrightarrow{j}, \overrightarrow{k}) \).
+Décrire la matrice de la rotation d&amp;rsquo;angle 60° (ou PI/3) par rapport à l&amp;rsquo;axe des Oz.
+Appelons r cette rotation, on a (en notant \( \theta = \frac{2\pi}{3} \) ) :
+\( r(i) = cos( \theta ) i + sin( \theta )j = \begin{pmatrix} cos \space{\theta} \\ sin \space{\theta} \\ 0 \end{pmatrix}\)</description>
+    </item>
+    
   </channel>
 </rss>
