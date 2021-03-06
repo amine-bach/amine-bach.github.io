@@ -15,7 +15,7 @@
       <pubDate>Mon, 18 Jan 2021 15:33:22 +0100</pubDate>
       
       <guid>http://localhost/ACP/a2_vecteurs/vecteurs/</guid>
-      <description>Au fait C&amp;rsquo;est quoi ce truc étrange : espace vectoriel ?
+      <description>Au fait c&amp;rsquo;est quoi ce truc étrange : espace vectoriel ?
  Présentation : Les vecteurs        Définition et distributivité :       On voit donc que beaucoup de choses, presque tout en fait sont des espace vectoriels.</description>
     </item>
     
@@ -27,20 +27,42 @@
       <guid>http://localhost/ACP/a2_vecteurs/application_lineaire/</guid>
       <description>Soit \( (O, \overrightarrow{i}, \overrightarrow{j}) \) un repère orthonormé, on dit que \( \overrightarrow{i}\) et \(\overrightarrow{j}\) forment une base canonique du plan.
 Une base signifie que tout vecteur \( \overrightarrow{v}\) du plan peut être obtenu comme une combinaison linéaire de \( \overrightarrow{i}\) et \(\overrightarrow{j}\).
-Une combinaison linéaire obtenue à partir d&amp;rsquo;une famille de vecteurs \( \overrightarrow{u} \), \( \overrightarrow{v} \) etc&amp;hellip; est une combinaison de la forme :
-$$ a \overrightarrow{u} + b\overrightarrow{v} +&amp;hellip;$$ avec \( a \) et \( b \) etc&amp;hellip; des nombres rééls.</description>
+Définition d&amp;rsquo;une combinaison linéaire Une combinaison linéaire d&amp;rsquo;une famille de vecteurs \( \overrightarrow{u} \), \( \overrightarrow{v} \) etc&amp;hellip; est une combinaison de la forme :
+$$ a \overrightarrow{u} + b\overrightarrow{v} +&amp;hellip;$$ (avec \( a \) et \( b \) etc&amp;hellip; des nombres rééls).</description>
     </item>
     
     <item>
-      <title>Exemples d&#39;applications linéaires</title>
-      <link>http://localhost/ACP/a2_vecteurs/exemples_applications/</link>
-      <pubDate>Wed, 10 Feb 2021 14:44:27 +0100</pubDate>
+      <title>Base</title>
+      <link>http://localhost/ACP/a2_vecteurs/base/</link>
+      <pubDate>Sat, 06 Mar 2021 04:56:16 +0100</pubDate>
       
-      <guid>http://localhost/ACP/a2_vecteurs/exemples_applications/</guid>
-      <description>Rotation de l&amp;rsquo;espace Nous nous placons dans cet exercice dans le repère orthonormé \( (O, \overrightarrow{i}, \overrightarrow{j}, \overrightarrow{k}) \).
-Décrire la matrice de la rotation d&amp;rsquo;angle 60° (ou PI/3) par rapport à l&amp;rsquo;axe des Oz.
-Appelons r cette rotation, on a (en notant \( \theta = \frac{2\pi}{3} \) ) :
-\( r(i) = cos( \theta ) i + sin( \theta )j = \begin{pmatrix} cos \space{\theta} \\ sin \space{\theta} \\ 0 \end{pmatrix}\)</description>
+      <guid>http://localhost/ACP/a2_vecteurs/base/</guid>
+      <description>Une famille \( \mathscr F \) de vecteurs est juste un ensemble de vecteurs.
+Soit \( p \) le nombre de vecteurs de cette famille, on peut la noter : \( \mathscr F = (\overrightarrow{e_1}, \overrightarrow{e_1}, \space&amp;hellip;\space, \overrightarrow{e_p}) \)
+Famille libre, famille génératrice Une famille est libre si aucun vecteur de cette famille ne peut être obtenu comme combinaison linéaire des autres vecteurs de cette famille.
+Une famille est génératrice si tout vecteur de l&amp;rsquo;espace vectoriel peut être obtenu comme combinaison linéaire des vecteurs de cette famille.</description>
+    </item>
+    
+    <item>
+      <title>Matrices</title>
+      <link>http://localhost/ACP/a2_vecteurs/matrices/</link>
+      <pubDate>Sat, 06 Mar 2021 03:56:58 +0100</pubDate>
+      
+      <guid>http://localhost/ACP/a2_vecteurs/matrices/</guid>
+      <description>Faisons le lien entre application linéaire et matrice.
+       On se place dans un espace vectoriel réél de dimension finie \( n\) (noté \( \R^{n}\)). TODO</description>
+    </item>
+    
+    <item>
+      <title>Pratique</title>
+      <link>http://localhost/ACP/a2_vecteurs/pratique/</link>
+      <pubDate>Sat, 06 Mar 2021 03:50:57 +0100</pubDate>
+      
+      <guid>http://localhost/ACP/a2_vecteurs/pratique/</guid>
+      <description>Dans la suite de cette page et pour pratiquer des calculs, nous utiliserons une fonction \( f_0 \) particulière qui sera définie par la donnée de ses images pour les 2 vecteurs \(\overrightarrow{i} \) et \(\overrightarrow{j}\) :
+\( f_0(\overrightarrow{i}) = \overrightarrow{i} + 2\overrightarrow{j} = \begin{pmatrix} 1 \\ 2 \end{pmatrix} \)
+\( f_0(\overrightarrow{j}) = - \overrightarrow{j} = \begin{pmatrix} 0 \\ -1 \end{pmatrix}\)
+(les vecteurs peuvent aussi êtres représentés comme des vecteurs colonnes).</description>
     </item>
     
   </channel>

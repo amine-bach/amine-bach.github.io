@@ -4,12 +4,12 @@
   
   <url>
     <loc>http://localhost/ACP/a1_generalites/symboles/</loc>
-    <lastmod>2021-01-24T19:02:32+01:00</lastmod>
+    <lastmod>2021-03-06T06:24:07+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://localhost/ACP/a2_vecteurs/vecteurs/</loc>
-    <lastmod>2021-02-09T17:15:12+01:00</lastmod>
+    <lastmod>2021-03-06T06:24:07+01:00</lastmod>
   </url>
   
   <url>
@@ -19,17 +19,17 @@
   
   <url>
     <loc>http://localhost/ACP/a1_generalites/</loc>
-    <lastmod>2021-01-23T20:33:36+01:00</lastmod>
+    <lastmod>2021-03-06T06:24:07+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://localhost/ACP/a2_vecteurs/application_lineaire/</loc>
-    <lastmod>2021-03-06T03:06:10+01:00</lastmod>
+    <lastmod>2021-03-06T06:24:07+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://localhost/ACP/a1_generalites/sigma/</loc>
-    <lastmod>2021-01-26T14:35:01+01:00</lastmod>
+    <lastmod>2021-03-06T06:24:07+01:00</lastmod>
   </url>
   
   <url>
@@ -43,8 +43,18 @@
   </url>
   
   <url>
-    <loc>http://localhost/ACP/a2_vecteurs/exemples_applications/</loc>
-    <lastmod>2021-03-06T03:06:10+01:00</lastmod>
+    <loc>http://localhost/ACP/a2_vecteurs/base/</loc>
+    <lastmod>2021-03-06T06:24:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/ACP/a2_vecteurs/matrices/</loc>
+    <lastmod>2021-03-06T06:24:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/ACP/a2_vecteurs/pratique/</loc>
+    <lastmod>2021-03-06T06:24:07+01:00</lastmod>
   </url>
   
   <url>
@@ -59,7 +69,7 @@
   
   <url>
     <loc>http://localhost/</loc>
-    <lastmod>2021-03-06T03:06:10+01:00</lastmod>
+    <lastmod>2021-03-06T06:24:07+01:00</lastmod>
   </url>
   
   <url>

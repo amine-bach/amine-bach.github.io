@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A C P">
+<meta name="description" content="Base">
 
-<title>A C P | Pedago content</title>
+<title>Base | Pedago content</title>
 
 <link rel="icon" href="/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -31,7 +31,6 @@
 <link rel="preload" href="/custom.css" as="style">
 <link rel="stylesheet" href="/custom.css" media="all">
 
-<link rel="alternate" type="application/rss+xml" href="http://localhost/ACP/index.xml" title="Pedago content" />
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
@@ -165,7 +164,7 @@
             
             
                 <span class="flex">
-                    <a href="/ACP/" class="gdoc-nav__entry is-active">
+                    <a href="/ACP/" class="gdoc-nav__entry ">
                         A C P
                     </a>
                 </span>
@@ -354,7 +353,7 @@
             
             
                 <span class="flex">
-                    <a href="/ACP/a2_vecteurs/base/" class="gdoc-nav__entry ">
+                    <a href="/ACP/a2_vecteurs/base/" class="gdoc-nav__entry is-active">
                         Base
                     </a>
                 </span>
@@ -580,7 +579,21 @@
         
     
     
-        <a href='/'>Pedago content</a> / A C P
+        
+        
+        
+    
+    
+        
+        
+        
+    
+    
+        <a href='/'>Pedago content</a> / <a href='/ACP/'>A C P</a> / <a href='/ACP/a2_vecteurs/'>Vecteurs</a> / Base
+    
+
+    
+
     
 
     
@@ -593,8 +606,9 @@
     </span>
 </div>
 
+
     <article class="gdoc-markdown">
-        <h1>A C P</h1>
+        <h1>Base</h1>
         
 
 
@@ -602,12 +616,18 @@
     
 
 
-<p>L&rsquo;<strong>Analyse en Composantes Principales</strong> (ACP) est une technique classique en analyse des données.</p>
-<p>Nous nous appuierons sur l&rsquo;<em>exemple jouet</em> de l&rsquo;<a href="http://wikistat.fr/pdf/st-l-des-multi">introduction à l&rsquo;ACP</a> pour graduellement nous familiariser avec le vocabulaire, le formalisme et les concepts.</p>
-<p><em>In english</em> : L&rsquo;ACP est appellée PCA (Principal Components Analysis)</p>
-<br> 
-<p>L&rsquo;ACP peut se retouver au détour de la sécurité dans le cloud :
-<a href="https://cloud.google.com/solutions/sensitive-data-and-ml-datasets#masking_sensitive_data">un concept classique en sécurité</a></p>
+<p>Une <strong>famille</strong> \( \mathscr F \) de vecteurs est juste un <span style="text-decoration:underline">ensemble</span> de vecteurs.</p>
+<p>Soit \( p \) le nombre de vecteurs de cette famille, on peut la noter  : \( \mathscr F  = (\overrightarrow{e_1}, \overrightarrow{e_1}, \space&hellip;\space, \overrightarrow{e_p}) \)</p>
+<br>
+<div class="gdoc-page__anchorwrap"><h3 id="famille-libre-famille-génératrice">Famille libre, famille génératrice<a data-clipboard-text="http://localhost/ACP/a2_vecteurs/base/#famille-libre-famille-génératrice" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Famille libre, famille génératrice" href="#famille-libre-famille-génératrice"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>Une <em>famille</em> est <strong>libre</strong> si aucun vecteur de cette famille ne peut être obtenu comme <em>combinaison linéaire</em> des autres vecteurs de cette famille.</p>
+<p>Une <em>famille</em> est <strong>génératrice</strong> si tout vecteur de <em>l&rsquo;espace vectoriel</em> peut être obtenu comme <em>combinaison linéaire</em> des vecteurs de cette famille.<br>
+<br></p>
+<div class="gdoc-page__anchorwrap"><h3 id="base">Base<a data-clipboard-text="http://localhost/ACP/a2_vecteurs/base/#base" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Base" href="#base"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<blockquote class="gdoc-hint ok">
+  Une <strong>base</strong> est une famille <strong>libre</strong> et <strong>génératrice</strong>.
+</blockquote>
+
 
 
     </article>

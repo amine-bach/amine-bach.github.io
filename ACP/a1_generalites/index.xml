@@ -15,11 +15,13 @@
       <pubDate>Sat, 23 Jan 2021 18:55:08 +0100</pubDate>
       
       <guid>http://localhost/ACP/a1_generalites/symboles/</guid>
-      <description>Pour lire (et donc pouvoir comprendre :) ) la majeure partie des documents à venir, rappellons quelques symboles.  \( \large \forall \space \space\space\space Quelque \space soit \)
+      <description>Pour lire (et donc pouvoir comprendre :) ) , rappellons quelques symboles.  \( \large \forall \space \space\space\space Quelque \space soit \)
 \( \large \exists \space \space \space\space Il \space existe \)
 \( \large \in \space \space\space Appartient \)
 \( \large P_A\iff P_B \space \space\space\space\space Équivaut \space à \)
-   Quelques vérités \( \forall x \in \mathbb{R}, \space x²\geq 0 \)</description>
+   \( \N \) : ensemble des entiers positifs.
+\( \R \) : ensemble des rééls.
+Quelques vérités \( \forall x \in \mathbb{R}, \space x²\geq 0 \)</description>
     </item>
     
     <item>
@@ -29,9 +31,9 @@
       
       <guid>http://localhost/ACP/a1_generalites/sigma/</guid>
       <description>Le symbole de l&amp;rsquo;addition Le \( \sum_{} \) représente la somme des termes à droite du symbole.
-L&amp;rsquo;indice (ici l&amp;rsquo;entier \( i \)) est la valeur qui est incrémentée lors de la somme, entre la valeur de départ \( 1 \) et finale \( 10 \), ainsi : $$\sum_{i=1}^{10} i = 1 + 2 +&amp;hellip;+ 9+10 $$
+L&amp;rsquo;indice (ici l&amp;rsquo;entier \( i \)) est l&amp;rsquo;entier qui est incrémenté lors de la somme, entre la valeur de départ \( 1 \) et finale \( 10 \), ainsi : $$\sum_{i=1}^{10} i = 1 + 2 +&amp;hellip;+ 9+10 $$
 
-[ Pour votre culture générale, apprenez que : $$\sum_{i=1}^{n} i = \frac{n(n+1)}{2} $$ :-) ]</description>
+:-) Pour votre culture générale, apprenez que : $$ \sum_{i=1}^{n} i = \frac{n(n+1)}{2} $$</description>
     </item>
     
   </channel>

@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A C P">
+<meta name="description" content="Pratique">
 
-<title>A C P | Pedago content</title>
+<title>Pratique | Pedago content</title>
 
 <link rel="icon" href="/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -31,7 +31,6 @@
 <link rel="preload" href="/custom.css" as="style">
 <link rel="stylesheet" href="/custom.css" media="all">
 
-<link rel="alternate" type="application/rss+xml" href="http://localhost/ACP/index.xml" title="Pedago content" />
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
@@ -165,7 +164,7 @@
             
             
                 <span class="flex">
-                    <a href="/ACP/" class="gdoc-nav__entry is-active">
+                    <a href="/ACP/" class="gdoc-nav__entry ">
                         A C P
                     </a>
                 </span>
@@ -404,7 +403,7 @@
             
             
                 <span class="flex">
-                    <a href="/ACP/a2_vecteurs/pratique/" class="gdoc-nav__entry ">
+                    <a href="/ACP/a2_vecteurs/pratique/" class="gdoc-nav__entry is-active">
                         Pratique
                     </a>
                 </span>
@@ -580,7 +579,21 @@
         
     
     
-        <a href='/'>Pedago content</a> / A C P
+        
+        
+        
+    
+    
+        
+        
+        
+    
+    
+        <a href='/'>Pedago content</a> / <a href='/ACP/'>A C P</a> / <a href='/ACP/a2_vecteurs/'>Vecteurs</a> / Pratique
+    
+
+    
+
     
 
     
@@ -593,8 +606,9 @@
     </span>
 </div>
 
+
     <article class="gdoc-markdown">
-        <h1>A C P</h1>
+        <h1>Pratique</h1>
         
 
 
@@ -602,12 +616,48 @@
     
 
 
-<p>L&rsquo;<strong>Analyse en Composantes Principales</strong> (ACP) est une technique classique en analyse des données.</p>
-<p>Nous nous appuierons sur l&rsquo;<em>exemple jouet</em> de l&rsquo;<a href="http://wikistat.fr/pdf/st-l-des-multi">introduction à l&rsquo;ACP</a> pour graduellement nous familiariser avec le vocabulaire, le formalisme et les concepts.</p>
-<p><em>In english</em> : L&rsquo;ACP est appellée PCA (Principal Components Analysis)</p>
-<br> 
-<p>L&rsquo;ACP peut se retouver au détour de la sécurité dans le cloud :
-<a href="https://cloud.google.com/solutions/sensitive-data-and-ml-datasets#masking_sensitive_data">un concept classique en sécurité</a></p>
+<p>Dans la suite de cette page et pour pratiquer des calculs, nous utiliserons une fonction \( f_0 \) particulière qui sera définie par la donnée de ses images pour les 2 vecteurs \(\overrightarrow{i} \)  et \(\overrightarrow{j}\) :</p>
+<p>\( f_0(\overrightarrow{i}) = \overrightarrow{i} + 2\overrightarrow{j} = \begin{pmatrix}
+1 \\ 2 \end{pmatrix} \)<br>
+\( f_0(\overrightarrow{j}) = - \overrightarrow{j} = \begin{pmatrix}
+0 \\ -1 \end{pmatrix}\)<br>
+(les vecteurs peuvent aussi êtres représentés comme des <strong>vecteurs colonnes</strong>).</p>
+<p>Il est donc maintenant possible de calculer les images de \( f_0 \) pour tous les vecteurs du plan.
+<br><br></p>
+<div class="gdoc-page__anchorwrap"><h4 id="exercice-">Exercice :<a data-clipboard-text="http://localhost/ACP/a2_vecteurs/pratique/#exercice-" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Exercice :" href="#exercice-"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<p>Soient des vecteurs \( \overrightarrow{u} = 4\overrightarrow{i} + \overrightarrow{j}\) et
+\( \overrightarrow{v} = \overrightarrow{i} + \overrightarrow{j}\).<br>
+Calculer leur image par l&rsquo;application \(f_0\).</p>
+<p>(<em>Indice :</em> utiliser la propriété de&hellip;. linéarité!)</p>
+
+<div class="gdoc-expand">
+  <label class="gdoc-expand__head flex justify-between" for="dea8fa2e-0">
+    <span>Correction :</span>
+    <span>...</span>
+  </label>
+  <input id="dea8fa2e-0" type="checkbox" class="gdoc-expand__control hidden" />
+  <div class="gdoc-markdown--nested gdoc-expand__content">
+    <p>\( f_0(\overrightarrow{u}) = f_0(4\overrightarrow{i} + \overrightarrow{j}) = 4f_0(\overrightarrow{i}) + f_0(\overrightarrow{j}) = 4(\overrightarrow{i} + 2\overrightarrow{j}) -\overrightarrow{j} = 4 \overrightarrow{i} + 7 \overrightarrow{j}\)</p>
+<p>\( f_0(\overrightarrow{v}) = f_0(\overrightarrow{i} + \overrightarrow{j}) = f_0(\overrightarrow{i}) + f_0(\overrightarrow{j}) = \overrightarrow{i} + \overrightarrow{j} = \overrightarrow{v}\)</p>
+
+  </div>
+</div>
+
+<br>
+<div class="gdoc-page__anchorwrap"><h2 id="représentation-matricielle-de-notre-application-linéaire">Représentation matricielle de notre application linéaire<a data-clipboard-text="http://localhost/ACP/a2_vecteurs/pratique/#représentation-matricielle-de-notre-application-linéaire" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Représentation matricielle de notre application linéaire" href="#représentation-matricielle-de-notre-application-linéaire"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>La matrice de \( f_0\) est obtenue à partir des images des vecteurs de la base, (c-a-d  \(\overrightarrow{i}\) et \( \overrightarrow{j}\)).</p>
+<p>La matrice de \( f_0\) (dans la <em>base canonique</em>) est donc : \( A = mat_{f_0} = \begin{bmatrix} f_0(\overrightarrow{i})&amp;f_0(\overrightarrow{j}) \end{bmatrix} = \begin{bmatrix} 1 &amp; 0
+\\ 2 &amp; -1 \end{bmatrix} \)</p>
+<p><br><br></p>
+<div class="gdoc-page__anchorwrap"><h3 id="multiplication-dune-matrice-par-un-vecteur">Multiplication d&rsquo;une matrice par un vecteur<a data-clipboard-text="http://localhost/ACP/a2_vecteurs/pratique/#multiplication-dune-matrice-par-un-vecteur" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Multiplication d&rsquo;une matrice par un vecteur" href="#multiplication-dune-matrice-par-un-vecteur"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>On retrouve les images des vecteurs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) par \(f_0\) en effectuant les calculs avec la matrice de \(A\) de \(f_0 \) :<br>
+\( A.u = A.\begin{pmatrix}
+4 \\ 1 \end{pmatrix} = \begin{bmatrix} 1 &amp; 0
+\\ 2 &amp; -1 \end{bmatrix} . \begin{pmatrix}
+4 \\ 1 \end{pmatrix} = \begin{pmatrix}
+4 \\ 7 \end{pmatrix}\)
+( Merci de bien vouloir retrouver la &ldquo;technique&rdquo; de calcul :)&hellip;! )</p>
+<p>De même \(A.v = v\).</p>
 
 
     </article>
